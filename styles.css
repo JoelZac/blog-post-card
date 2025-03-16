@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.blog-post-card {
+    background-color: white;       
+    border-radius: 10px;           
+    width: 300px;                  
+    text-align: center;            
+  }
+  .post-img {
+    width: 100%;             
+    border-bottom: 2px solid;
+    margin-bottom: 10px; 
+  }
+  .post-content {
+    padding: 20px;       
+  }
+  .post-title {
+    color: navy;   
+    margin: 10px 0;          
+  }
+  
+  .post-excerpt {
+    color: #555;             
+    margin: 10px 0;       
+  }
+  .read-more {
+    color: white;            
+    background-color: blue; 
+    margin: 10px;            
+    padding: 10px 20px;      
+    border-radius: 5px;      
+    display: inline-block;      
+    text-align: center;      
+  }
+  .read-more:hover {
+    background-color: darkblue; 
+  }
